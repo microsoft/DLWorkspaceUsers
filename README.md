@@ -1,14 +1,21 @@
+# [](#header-1)[Project Overview](docs/index.md)
 
-# Contributing
+Deep Learning Workspace (DLWorkspace) is an open source toolkit that allows AI scientists to spin up an AI cluster in turn-key fashion (either in a public cloud such as Azure, or in an on-perm cluster). It has been used in daily production for Microsoft internal groups (e.g., Microsoft Cognitive Service, SwiftKey, Bing Relevance, etc...).
+Once setup, the DLWorkspace provides web UI and/or restful API that allows AI scientist to run job (interactive exploration, training, inferencing, data analystics)
+on the cluster with resource allocated by DL Workspace cluster for each job (e.g., a single node job with a couple of GPUs with GPU Direct connection, or a distributed job with multiple GPUs per node). DLWorkspace also provides
+unified job template and operating environment that allows AI scientists to easily share their job and setting among themselves and with outside community. DLWorkspace out-of-box supports all major deep learning toolkits (TensorFlow, CNTK, Caffe, MxNet, etc..), and supports popular big data analytic toolkit such as hadoop/spark. 
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+This repo is mainly for documentations and code that supports the use of DL Workspace. Please check [main repo](microsoft.github.io/DLWorkspace) for the code of DLWorkspace. 
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+# [](#header-2)Tutorials
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Here is a few short video clips that can quickly explain DLWorkspace. Note the PPT link will only work in github.com repo, not in github.com pages. 
+
+* [DL Workspace: CNTK](https://youtu.be/3O0uwUwPRho) [(PPT)](docs/Presentation/Video/Running-CNTK.pptx)
+* [DL Workspace: TensorFlow](https://youtu.be/Xa7exVurUmE) [(PPT)](docs/Presentation/Video/Running-TensorFlow.pptx)
+* [DL Workspace: Spark](https://youtu.be/9kV9_w-eQYY) [(PPT)](docs/Presentation/Video/Running-Spark.pptx)
+* [Installation-Azure](https://youtu.be/inDcl85-TRw) [(PPT)](docs/Presentation/Video/Installation-Azure.pptx)
+* [Installation-On-Prem](https://youtu.be/T_00DrSxl70) [(PPT)](docs/Presentation/Video/Installation-On-Prem.pptx)
+
+# [](#header-3)[User Documentations and FAQ](docs/index.md)
+
